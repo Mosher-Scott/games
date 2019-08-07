@@ -1,0 +1,108 @@
+/* Set some defaults */
+body, footer, header, nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Defaults */
+h1 {
+    font-family: 'Merriweather, serif';
+    color: #0fa3b1;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'merriweather, sertif';
+    color: #0fa3b1;
+    margin: 0;
+}
+
+p {
+    font-family: 'lato', sans-serif;
+}
+
+hr {
+    margin: 1px;
+}
+
+/* Individual Sections */
+body {
+    background: #eaf2ef;
+    width: 80%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+#wrapper {
+    background: orange;
+    text-align: center;
+}
+
+#gameSetup {
+    background: white;
+}
+
+#playerNameEntry {
+    background: white;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#scores {
+    background: white;
+}
+
+#scoresDisplayTable {
+    background: white;
+}
+
+/* Table Elements */
+table, th, td {
+    border: 1px solid pink;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+
+table {
+    margin: auto;
+    background: white;
+}
+
+th {
+    font-family: 'lato', sans-serif;
+}
+
+/* Header Elements */
+header {
+    background: white;
+}
+
+#titleDiv {
+    background: white;
+}
+
+#navMenu {
+    background: #d2d7df;
+    display: flex;
+}
+
+#navMenu a {
+    flex-grow: 1;
+    padding:5px;
+}
+
+footer {
+    background: #d2d7df;
+}
+
+/* Classes */
+.visible {
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
