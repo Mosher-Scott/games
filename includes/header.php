@@ -1,4 +1,4 @@
-<?php $siteroot = 'C:/Users/smosher/source/repos/Games'; ?>
+<?php $siteroot = 'C:/Users/smosher/source/repos/gamesWebsite/games'; ?>
 <header>
     <div id="titleDiv">
         <h1>Farkle</h1>

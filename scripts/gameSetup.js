@@ -27,9 +27,8 @@ function displayArray() {
     }
 }
 
+// Called when the user clicks "Save" after inputting the number of players
 function gameSetup() {
- 
-
     // Get the number of players
    getNumberOfPlayers();
 
@@ -99,8 +98,10 @@ function savePlayerNames(){
        playerArray[i] = playerName;
     }
 
+    // Get the next sections ready
     createScoreCard();
     createPlayerListDropdown();
+    addTableRow();
 }
 
 // Creates the header row with player names, and the totals row

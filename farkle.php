@@ -1,4 +1,4 @@
-<?php $siteroot = 'C:/Users/smosher/source/repos/Games'; ?>
+<?php $siteroot = 'C:/Users/smosher/source/repos/gamesWebsite/games'; ?>
 <!doctype html>
 <html lang="en">
 <?php require "$siteroot/includes/head.php"; ?>
